@@ -1,0 +1,7 @@
+api_authenticator:
+  path: "/api/auth"
+  method: "POST"
+
+api_orders:
+  path: "/api/orders?page={page}"
+  method: "GET"
